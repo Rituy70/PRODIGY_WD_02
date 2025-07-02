@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Stopwatch</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="bgCanvas"></canvas>
+
+  <div class="stopwatch-box">
+    <h1>🕒 Stopwatch</h1>
+    <div id="display">00:00:00:00</div>
+    <div class="buttons">
+      <button id="start">▶️ Start (S)</button>
+      <button id="stop">⏸️ Stop (T)</button>
+      <button id="reset">🔄 Reset (R)</button>
+      <button id="lap">🏁 Lap (L)</button>
+      <button id="export">📂 Export CSV</button>
+    </div>
+    <div id="laps"></div>
+    <div id="history">Session Restored: 0 laps</div>
+    <div class="controls">
+      <button id="themeToggle">🌗</button>
+      <button id="voiceToggle">🧘</button>
+    </div>
+  </div>
+
+  <footer>Made by Ritu Yadav • Shortcuts: S/T/R/L</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

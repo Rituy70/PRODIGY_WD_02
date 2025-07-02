@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background: #0f2027;
+    color: #fff;
+  }
+  
+  canvas#bgCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .stopwatch-box {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    max-width: 500px;
+    width: 90%;
+  }
+  
+  #display {
+    font-size: 2.5rem;
+    margin: 20px 0;
+    letter-spacing: 2px;
+  }
+  
+  .buttons button,
+  .controls button {
+    padding: 10px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 10px;
+    background: #1f4068;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .buttons button:hover,
+  .controls button:hover {
+    background: #2f80ed;
+  }
+  
+  #laps {
+    margin-top: 20px;
+    text-align: left;
+    max-height: 200px;
+    overflow-y: auto;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #aaa;
+  }
+  
+  .dark {
+    background: #000;
+    color: #fff;
+  }
+  
+  .dark .buttons button,
+  .dark .controls button {
+    background: #333;
+  }
+  
+  .dark .buttons button:hover,
+  .dark .controls button:hover {
+    background: #666;
+  }
