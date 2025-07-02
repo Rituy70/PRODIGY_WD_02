@@ -22,3 +22,6 @@ TECH STACK
 Frontend:HTML5,CSS3,JAVASCRIPT(ES6)
 Responsive Design:Media queries,Flexbox
 UI Enhancements:CSS animations,button transitions,scroll effects
+
+
+Notes: The project was also tested on CodePen for layout and responsiveness. All features work best in a local or GitHub-hosted environment.
